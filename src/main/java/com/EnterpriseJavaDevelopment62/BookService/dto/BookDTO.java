@@ -1,5 +1,6 @@
 package com.EnterpriseJavaDevelopment62.BookService.dto;
 
+import com.EnterpriseJavaDevelopment62.BookService.enums.Format;
 import lombok.*;
 
 import java.util.List;
@@ -22,5 +23,5 @@ public class BookDTO {
     private String genre;
 
     @NonNull
-    private String formats;
+    private List<String> formats;
 }
